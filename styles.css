@@ -1,0 +1,177 @@
+.pne-download-button {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 1000;
+  background-color: #e60023 !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 24px;
+  padding: 10px 14px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  opacity: 0;
+  transition: all 0.2s ease;
+  transform: translateY(10px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.pne-download-button:hover {
+  background-color: #ad001a !important;
+  transform: translateY(0);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+div[data-grid-item="true"]:hover .pne-download-button {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+div[data-test-id="toast-container"] {
+  display: none !important;
+}
+
+body.pne-theme-dark,
+body.pne-theme-dark #PINTEREST_ROOT {
+  background-color: #131313 !important;
+  color: #e0e0e0 !important;
+}
+
+body.pne-theme-dark * {
+  background-color: transparent !important;
+  color: inherit !important;
+  box-shadow: none !important;
+  border-color: #444 !important;
+}
+
+body.pne-theme-dark div[data-test-id="desktop-header"] {
+  background-color: #1f1f1f !important;
+  border-bottom: 1px solid #333 !important;
+}
+
+body.pne-theme-dark div[data-test-id="search-box-container"] {
+  background-color: #333 !important;
+}
+
+body.pne-theme-dark div[data-test-id="search-box-container"] input {
+  background-color: #333 !important;
+  color: #e0e0e0 !important;
+}
+
+body.pne-theme-dark div[data-test-id="notifications-dropdown"] {
+  background-color: #2a2a2a !important;
+  border: 1px solid #555 !important;
+  border-radius: 16px !important;
+}
+
+body.pne-theme-dark div[data-test-id="search-suggestions-container"],
+body.pne-theme-dark div[data-test-id="user-menu-dropdown"],
+body.pne-theme-dark div[role="menu"] {
+  background-color: #2a2a2a !important;
+  border: 1px solid #555 !important;
+  border-radius: 16px !important;
+}
+
+body.pne-theme-dark div[role="menuitem"]:hover,
+body.pne-theme-dark div[data-test-id="search-suggestion-item"]:hover {
+  background-color: #444 !important;
+  border-radius: 8px !important;
+}
+
+body.pne-theme-dark [role="dialog"],
+body.pne-theme-dark [role="listbox"],
+body.pne-theme-dark [data-test-id*="dropdown"],
+body.pne-theme-dark [data-test-id*="popover"],
+body.pne-theme-dark [data-test-id*="suggest"],
+body.pne-theme-dark [data-test-id="search-suggestions-container"],
+body.pne-theme-dark [data-test-id="typeahead-dropdown"],
+body.pne-theme-dark [data-test-id="search-drawer"],
+body.pne-theme-dark [data-test-id="overlay"],
+body.pne-theme-dark [data-test-id="user-menu-dropdown"],
+body.pne-theme-dark [role="menu"] {
+  background-color: #1f1f1f !important;
+  border: 1px solid #333 !important;
+  border-radius: 12px !important;
+}
+
+body.pne-theme-dark [role="menuitem"],
+body.pne-theme-dark [role="option"],
+body.pne-theme-dark [data-test-id*="suggestion-item"] {
+  background: transparent !important;
+}
+
+body.pne-theme-dark [role="menuitem"]:hover,
+body.pne-theme-dark [role="option"][aria-selected="true"],
+body.pne-theme-dark [data-test-id*="suggestion-item"]:hover {
+  background-color: #2a2a2a !important;
+}
+
+body.pne-theme-dark input,
+body.pne-theme-dark textarea {
+  background-color: #2a2a2a !important;
+  color: #e0e0e0 !important;
+  border: 1px solid #444 !important;
+}
+
+body.pne-theme-dark input::placeholder,
+body.pne-theme-dark textarea::placeholder {
+  color: #aaaaaa !important;
+}
+
+body.pne-theme-dark div[data-grid-item="true"] {
+  background-color: transparent !important;
+}
+
+body.pne-theme-dark div[data-grid-item="true"] button[aria-label],
+body.pne-theme-dark div[data-grid-item="true"] a[aria-label] {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  border-radius: 50% !important;
+}
+
+body.pne-theme-dark div[data-grid-item="true"] button[aria-label]:hover,
+body.pne-theme-dark div[data-grid-item="true"] a[aria-label]:hover {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+body.pne-theme-dark div[data-grid-item="true"] div[data-test-id="PinArtSaveButton"],
+body.pne-theme-dark div[data-grid-item="true"] div[role="button"]:has(div:contains("Сохранить")) {
+  background-color: #e60023 !important;
+  color: white !important;
+  border: none !important;
+}
+
+body.pne-theme-dark div[data-grid-item="true"] div[data-test-id="PinArtSaveButton"]:hover,
+body.pne-theme-dark div[data-grid-item="true"] div[role="button"]:has(div:contains("Сохранить")):hover {
+  background-color: #ad001a !important;
+}
+
+body.pne-theme-dark nav {
+  background-color: #1f1f1f !important;
+}
+
+body.pne-theme-dark aside {
+  background-color: #1f1f1f !important;
+}
+
+body.pne-theme-dark div[role="dialog"] {
+  background-color: #2a2a2a !important;
+  border: 1px solid #555 !important;
+}
+
+body.pne-theme-dark a {
+  color: #e0e0e0 !important;
+}
+
+body.pne-theme-dark a:hover {
+  color: #ffffff !important;
+}
+
+body.pne-theme-dark .pne-download-button {
+  background-color: #e60023 !important;
+  color: white !important;
+}
+
+body.pne-theme-dark .pne-download-button:hover {
+  background-color: #ad001a !important;
+}
